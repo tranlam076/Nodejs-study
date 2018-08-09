@@ -1,0 +1,59 @@
+1. git init
+git add
+git commit 
+git push
+
+
+D:\Nodejs\ss9>git init
+
+D:\Nodejs\ss9>git remote add origin https://github.com/tranlam076/git-test.git
+
+D:\Nodejs\ss9>git push -u origin master
+//add .gitignore
+
+D:\Nodejs\ss9>git add .
+
+D:\Nodejs\ss9>git commit -m "Init"
+
+D:\Nodejs\ss9>git push
+
+D:\Nodejs\ss9> git push --set-upstream origin master
+
+D:\Nodejs\ss9>git rm --cache .idea/*
+
+D:\Nodejs\ss9>git add .
+
+D:\Nodejs\ss9>git commit -m "Remove idea folder"
+
+D:\Nodejs\ss9>git push
+
+D:\Nodejs\ss9>git rm --cache .idea/*
+
+D:\Nodejs\ss9>git branch
+
+D:\Nodejs\ss9>git branch develop
+
+D:\Nodejs\ss9>git branch
+
+D:\Nodejs\ss9>git chekout develop
+
+D:\Nodejs\ss9>git branch
+
+D:\Nodejs\ss9>git checkout develop
+
+D:\Nodejs\ss9>git add .
+
+D:\Nodejs\ss9>git commit -m "Done login"
+
+D:\Nodejs\ss9>git push
+
+D:\Nodejs\ss9> git push --set-upstream origin develop
+
+D:\Nodejs\ss9>git branch
+
+D:\Nodejs\ss9>git checkout master
+
+D:\Nodejs\ss9>git merge develop
+
+D:\Nodejs\ss9>git push
+D:\Nodejs\ss9>
